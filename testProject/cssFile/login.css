@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+body{
+
+	margin: 5px;
+	padding: 5px;
+	background: black;
+
+}
+
+.container{
+
+	margin-top: 5%;
+	margin-left: 40%;
+	margin-right: 50%;
+	height: 400px;
+	width: 350px;
+	border-radius: 30px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+.loginBtn{
+	height: 10%;
+	width: 75%;
+	
+	border-radius: 30px;
+	font-size: 20px;
+}
+.loginBtn:hover{
+	background: green;
+	color: white;
+}
+.field{
+
+	height: 350px;
+	width: 300px;
+	border-radius: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+	
+}
+.uName{
+	height: 10%;
+	width: 75%;
+	border-radius: 30px;
+	margin-top: 10px;
+	outline: none;
+	text-align: center;
+}
+.pass{
+	margin-top: 10px;
+	height: 10%;
+	width: 75%;
+	border-radius: 30px;
+	text-align: center;	
+}
+.rmbMe{
+
+	float: left;
+	font-size: 16px;
+	
+
+}
+.chkBox{
+	
+	margin-left: 35px;
+	float: left;
+	position: relative;
+}
+a{
+
+	text-decoration: none;
+	font-size: 16px;
+	color: red;
+
+}
+a:hover{
+	color: white;
+}
+
+.regNow{
+	font-size: 16px;
+}
+.regNow:hover{
+	color:white;
+}

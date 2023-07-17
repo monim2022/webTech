@@ -1,0 +1,17 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: gray;
+}
+.cardRent{
+	height: 300px;
+	width: 150px;
+	background: gray;
+}
+.cardFood{
+	height: 300px;
+	width: 150px;
+	background: gray;
+}

@@ -1,0 +1,190 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+body{
+	
+	background: gray;
+}
+.mainContainer{
+	height: 600px;
+}
+.header{
+	height: 100px;
+	background: black;
+	color:white;
+}
+.webName{
+
+	text-align: center;
+
+}
+.srcBox{
+	
+	border-radius: 20px;
+	height: 24px;
+	font-size: 18px;
+	
+}
+.srcBox:hover{
+	color: red;
+	border-color: red;
+	background: black;
+}
+.search-icon{
+    
+    font-size: 20px;
+   
+    margin-left: 20%;
+
+}
+.navBar{
+	float: left;
+}
+
+.navBar ul li{
+	float: left;
+	display: inline;
+	margin-left: 40px;
+	    
+}
+.navBar ul li a{
+	text-decoration: none;
+	color: white;
+
+}
+.navBar ul li a:hover{
+	
+	color: red;
+
+}
+
+.logRegBtn{
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 20px;
+
+}
+.logBtn{
+	margin-right: 10px;
+	height: 28px;
+	width: 80px;
+	border-radius: 20px;
+	
+}
+.regiBtn{
+	margin-right: 10px;
+	height: 28px;
+	width: 80px;
+	border-radius: 20px;
+	
+}
+.logBtn:hover{
+	background: red;
+	color: white;
+}
+.regiBtn:hover{
+	background: red;
+	color: white;
+}
+
+.mainContent{
+	height: 400px;
+	
+}
+.footer{
+	height: 230px;
+	background: black;
+}
+input{
+	height: 20px;
+	width: 400px;
+	background: transparent;
+	margin-top: 10px;
+	border: 1px solid white;
+	color: white;
+
+}
+input:hover{
+	border-color: green;
+	color: white;
+}
+textarea{
+	background: transparent;
+	margin-top: 5px;
+	border: 1px solid white;
+	width: 400px;
+}
+textarea:hover{
+	border-color: green;
+	color: white;
+}
+button{
+	height: 30px;
+	width: 250px;
+	text-align: center;
+	margin-left: 60px;
+	margin-top: 5px;
+}
+button:hover{
+	background: green;
+	color: white;
+
+}
+.reportForm{
+	float: left;
+	margin-left: 30px;
+	color: white;
+}
+.contactForm{
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+	color: white;
+}
+
+.serviceShow{
+
+	float: left;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 15px;
+	background: black;
+	color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 380px;
+	width: 450px;
+	
+}
+.serviceShow h1{
+	text-align: center;
+	margin-top: 10px;
+	grid-template-columns: 1/-1;
+}
+.ourServices{
+
+	float: right;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 15px;
+	background: black;
+	color: white;
+	margin-top: 10px;
+	margin-right: 10px;
+	height: 380px;
+	width: 785px;
+	
+}
+.ourServices h1{
+	text-align: center;
+	margin-top: 10px;
+	grid-template-columns: 1/-1;
+}
+
+

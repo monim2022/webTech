@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #2F2C2C;
+}
+.container{
+	height: 500px;
+	width: 350px;
+	margin-top: 25px;
+	margin-left: 40%;
+	margin-bottom: 10px;
+	background: #282323;
+	color: white;
+	border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+	border: 1px solid;
+	
+}
+label,input{
+    margin: 0px;
+	margin-left: 30px;
+	margin-right: 25px;
+	height: 20px;
+	width: 80%;
+	font-size: 18px;
+}
+input:hover{
+	border-color: red;
+	background: black;
+	color: red;
+}
+.regiName{
+	font-size: 24px;
+	margin-left: 30%;
+}
+.subClass{
+	height: 30px;
+}
+.subClass:hover{
+	background: red;
+	color: white;
+}

@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #232423;
+}
+
+.mainContainer{
+	padding: 10px;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background:#2b2b2b;
+	height: 350px;
+	width: 1250px;
+	border-radius: 10px;
+	box-shadow: 30px;
+
+}
+.serviceName{
+	margin-top: 10px;
+	color: white;
+	text-align: center;
+}
+
+.cardRent{
+	margin-top: 30px;
+	margin-left: 10%;
+	float: left;
+	height: 200px;
+	width: 450px;
+	background: gray;
+	border-radius: 10px;
+	background: transparent;
+	box-shadow: 20px;
+	border: 1px solid;
+	border-color: white;
+
+	
+}
+.cardRent:hover{
+	border-color: red;
+	background: white;
+	
+}
+
+
+.cardFood{
+	margin-top: 30px;
+	margin-right: 10%;
+	float: right;
+	height: 200px;
+	width: 450px;
+	background: gray;
+	border-radius: 10px;
+	background: transparent;
+	box-shadow: 20px;
+	border: 1px solid;
+	border-color: white;
+	
+
+}
+.cardFood:hover{
+	border-color: red;
+	background: white;
+	
+}
+.cardFood h1{
+	margin-top: 70px;
+	
+	text-align: center;
+	color: white;
+	
+}
+.cardFood h1:hover{
+	color: red;
+}
+.cardRent h1{
+	margin-top: 70px;
+	
+	text-align: center;
+	color: white;
+
+}
+.cardRent h1:hover{
+	color: red;
+}
+.vl{
+	margin-top: 30px;
+	margin-left: 50%;
+	height: 240px;
+	border-left: 3px solid white;
+	width: 3px;
+}

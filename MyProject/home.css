@@ -1,0 +1,108 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+body{
+	
+	background: gray;
+}
+.mainContainer{
+	height: 600px;
+	
+
+	
+}
+.header{
+	height: 100px;
+	background: black;
+	color:white;
+	
+}
+.webName{
+
+	text-align: center;
+	
+
+}
+.srcBox{
+	
+	border-radius: 20px;
+	height: 24px;
+	font-size: 18px;
+
+	
+}
+.srcBox:hover{
+	color: red;
+	border-color: red;
+	background: black;
+}
+.search-icon{
+    
+    font-size: 20px;
+   
+    margin-left: 20%;
+
+}
+.navBar{
+	float: left;
+}
+
+.navBar ul li{
+	float: left;
+	display: inline;
+	margin-left: 40px;
+	    
+}
+.navBar ul li a{
+	text-decoration: none;
+	color: white;
+
+}
+.navBar ul li a:hover{
+	
+	color: red;
+
+}
+
+.logRegBtn{
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 20px;
+
+}
+.logBtn{
+	margin-right: 10px;
+	height: 28px;
+	width: 80px;
+	border-radius: 20px;
+	
+}
+.regiBtn{
+	margin-right: 10px;
+	height: 28px;
+	width: 80px;
+	border-radius: 20px;
+	
+}
+.logBtn:hover{
+	background: red;
+	color: white;
+}
+.regiBtn:hover{
+	background: red;
+	color: white;
+}
+
+
+
+.mainContent{
+	height: 400px;
+	
+}
+.footer{
+	height: 150px;
+	
+	background: black;
+}

@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #0d0d0d;
+}
+.mainContainer{
+	
+	
+	margin-top: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+	height: 400px;
+	background: #1a1a1a;
+	color: white;
+	border-radius: 10px;
+
+
+}
+.containName{
+	text-align: center;
+	font-size: 40px;
+}
+.subContainer{
+	height: 300px;
+	margin: 20px;
+	display: flex;
+	background:#262626;
+	border-radius: 15px;
+	text-align: center;
+}
+.breakFast{
+	margin-top: 30px;
+	margin-left: 40px;
+	height: 200px;
+	width: 350px;
+	background: transparent;
+	border-radius: 10px;
+	border: 1px solid;
+	border-color: white;
+
+}
+.breakFast:hover{
+	border-color: red;
+}
+.lounchTime{
+	margin-top: 30px;
+	margin-left: 20px;
+	height: 200px;
+	width: 350px;
+	background: transparent;
+	border-radius: 10px;
+	border: 1px solid;
+	border-color: white;
+	
+}
+.lounchTime:hover{
+	border-color: red;
+}
+.dinnerTime{
+	margin-top: 30px;
+	margin-left: 20px;
+	height: 200px;
+	width: 350px;
+	border-radius: 10px;
+	background: transparent;
+	border: 1px solid;
+	border-color: white;
+}
+.dinnerTime:hover{
+	border-color: red;
+	color: red;
+}
+h1{
+	margin-top: 70px;
+	font-size: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: red;
+}

@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: black;
+}
+
+.mainContainer{
+	height: 500px;
+	background: #1a1a1a;
+	color: white;
+}
+
+
+.lounchName{
+	text-align: center;
+	margin-top: 25px;
+}
+.subContainer{
+	
+	width: 850px;
+	height: 300px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+	padding: 30px;	
+     background:#262626;
+	color: white;
+	display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: repeat(2, 1fr);
+     grid-row-gap: 25px;
+     grid-column-gap: 15px;
+     
+
+
+
+}
+.item1{
+	border: 1px solid white;
+	background: transparent;
+	box-shadow: 20px;
+	text-align: center;
+}
+.sideBar{
+	float: right;
+	background: transparent;
+	height: 350px;
+	width: 300px;
+	margin-top: 50px;
+	margin-right: 20px;
+	border: 1px solid red;
+}
+.sideBar h1{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5px;
+}
+img{
+	margin-top: 10px;
+	height: 100px;
+	width: 150px;
+
+}
+

@@ -1,0 +1,38 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	
+	color: black;
+	background: white;
+}
+
+.mainContainer{
+	height: 550px;
+	padding: 10px;
+	background: black;
+	color: white;
+}
+
+.mainContainer h1{
+	text-align: center;
+}
+.sectionOne{
+
+    height: 300px;
+    margin: 5px;
+    margin-top: 10px;
+	background:#262626;
+	color: white;
+}
+.sectionTwo{
+	margin: 5px;
+	height: 230px;
+	margin-top: 5px;
+	background: #262626;
+}
+
+
+
+

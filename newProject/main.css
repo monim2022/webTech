@@ -1,0 +1,127 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: box;
+}
+
+
+.mainContainer{
+	
+	height: 100%;
+	display: grid;
+	grid-template: 
+	"h h h h h h h h h h h h" 100px
+	"c c c c c c c c c c c c" auto
+	"f f f f f f f f f f f f" 150px
+	;
+
+}
+.header{
+
+	grid-area: h;
+	background: #000;
+	color: white;
+}
+
+.hName,h1{
+	text-align: center;
+	margin-top: 5px;
+}
+
+.navBar{
+  
+  margin-left: 20px;
+  float: left;
+  text-align: center;
+
+
+
+}
+.navBar a{
+
+	
+	margin: 5px;
+	text-decoration: none;
+	color: red;
+	font-size: 17px;
+	border-radius: 20px;
+	width: 70px;
+
+}
+.navBar a:hover{
+	background: red;
+	color: white;
+	justify-content: center;
+    align-items: center;	
+}
+
+
+.srcBox{
+	height: 30px;
+	width: 250px;
+	border-radius: 20px;
+	background: transparent;
+	color: white;
+	font-size: 18px;
+	border-color: white;
+	margin-left: 5px;
+
+}
+.search-icon
+{
+	font-size: 28px;
+	position: absolute;
+	margin-left: 240px;
+	
+}
+
+.srcBox:hover{
+	border-color: red;
+	color:white;
+}
+
+
+.logBtn{
+
+	height: 30px;
+	width: 70px;
+	float: right;
+	margin-right: 5px;
+	font-size: 17px;
+	border-radius: 13px;
+	margin-bottom: 50px;
+
+}
+
+.regBtn{
+	float: center;
+	height: 30px;
+	width: 80px;
+	float: right;
+	margin-right: 30px;
+	font-size: 17px;
+	border-radius: 13px;
+	margin-bottom: 50px;
+}
+.logBtn:hover, .regBtn:hover{
+	background: red;
+	color: white;
+
+}
+
+
+
+.mainContent{
+
+
+	grid-area: c;
+
+
+}
+
+.footer{
+	
+	grid-area: f;
+	background: #000;
+	color: white;
+}

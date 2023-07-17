@@ -1,0 +1,60 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: black;
+	color: white;
+}
+.container{
+	background: transparent;
+	color: white;
+	margin-left: 38%;
+	height: 360px;
+	width: 330px;
+	text-align: center;
+	border-radius: 20px;
+	border: 1px solid red;
+	box-shadow: 15px 10px 20px;
+}
+
+input{
+	height: 24px;
+	width: 260px;
+	margin: 10px;
+}
+.inputItems{
+	height: 20px;
+	width: 260px;
+	margin-top: 30px;
+	margin-left: 28px;
+}
+.submitBtn{
+	height: 30px;
+	background: green;
+	color: white;
+	border: none;
+}
+.submitBtn:hover{
+	background: #10a605;
+	color: white;
+}
+button{
+	margin: 20px;
+	background: transparent;
+	border: 1px solid white;
+	width: 80px;
+	height: 30px;
+	border-radius: 20px;
+}
+button:hover{
+    background: green;
+    color: white;
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+a:hover{
+	color: white;
+}

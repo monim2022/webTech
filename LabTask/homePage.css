@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	display: grid;
+	grid-template: repeat(12, 1fr);
+
+}
+.header{
+	height: 100px;
+	background: black;
+	color: white;
+}
+.showBtn{
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: 500;
+	color:white;
+	cursor: pointer;
+
+	float: right;
+
+}
+
+.inputItems{
+	display: none;
+	height: 350px;
+	width: 250px;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: antiquewhite;
+	color: black;
+}
+input[type="checkbox"]{
+	
+}
+
+#show:checked~ .inputItems{
+	display: block;
+
+}
+
