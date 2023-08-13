@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: black;
+}
+.mainContainer{
+	height: 380px;
+	width: 450px;
+	background: #262926;
+	color: white;
+	margin-left: 30%;
+	text-align: center;
+	border-radius: 20px;
+	
+
+}
+input{
+	margin: 10px;
+	height: 30px;
+	width: 410px;
+}
+button{
+	margin: 20px;
+	height: 30px;
+	width: 80px;
+	background: green;
+	color: white;
+	border: none;
+}
+.submitBtn:hover{
+      background: green;
+      color: white;
+      border: none;
+}

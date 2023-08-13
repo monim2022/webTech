@@ -1,0 +1,28 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: black;
+}
+.mainContainer{
+	height: 380px;
+	width: 700px;
+	background: #262926;
+	color: white;
+	margin-left: 25%;
+	text-align: center;
+	border-radius: 20px;
+	
+}
+button{
+	margin: 20px;
+	height: 30px;
+	width: 100px;
+	background: green;
+	color: white;
+	border: none;
+}
+table{
+	margin-left: 50px;
+}

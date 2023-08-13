@@ -1,0 +1,85 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.mainContainer{
+	height: 600px;
+	color: black;
+}
+.header{
+	
+	color: white;
+	height: 150px;
+	text-align: center;
+	background: black;
+}
+h1{
+	margin-top-color: red;
+	border: 50px solid black;
+
+}
+
+
+.sideNav{
+	float: left;
+	width: 200px;
+	height: 600px;
+	background: gray;
+}
+.mainContent{
+	background: white;
+	color: black;
+	height: 600px;
+	width: 800px;
+
+}
+.attenBtn{
+	background: teal;
+	height: 70px;
+	width: 198px;
+
+}
+.profBtn{
+    background: blue;
+	height: 70px;
+	width: 198px;
+}
+.addBtn{
+	background: green;
+	height: 70px;
+	width: 198px;
+
+}
+.deletBtn{
+	background: yellow;
+	height: 70px;
+	width: 198px;
+
+}
+.salaryBtn{
+    background: cyan;
+	height: 70px;
+	width: 198px;
+}
+.logBtn{
+    background: red;
+	height: 70px;
+	width: 198px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+img{
+	height: 150px;
+	width: 150px;
+	border-radius: 20px;
+	margin: 20px;
+
+}
+.profileOne{
+	color: black;
+	border: 1px solid;
+	border-radius: 20px;
+
+}
